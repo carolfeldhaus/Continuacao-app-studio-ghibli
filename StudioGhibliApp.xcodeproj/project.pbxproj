@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8295851E2735F67B00316341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295851D2735F67B00316341 /* AppDelegate.swift */; };
+		829585202735F67B00316341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295851F2735F67B00316341 /* SceneDelegate.swift */; };
+		829585222735F67B00316341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585212735F67B00316341 /* ViewController.swift */; };
+		829585252735F67B00316341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829585232735F67B00316341 /* Main.storyboard */; };
+		829585282735F67B00316341 /* StudioGhibliApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */; };
+		8295852A2735F67C00316341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829585292735F67C00316341 /* Assets.xcassets */; };
+		8295852D2735F67C00316341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295852B2735F67C00316341 /* LaunchScreen.storyboard */; };
+		829585382735F67C00316341 /* StudioGhibliAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585372735F67C00316341 /* StudioGhibliAppTests.swift */; };
+		829585422735F67C00316341 /* StudioGhibliAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585412735F67C00316341 /* StudioGhibliAppUITests.swift */; };
+		829585442735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585432735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		829585342735F67C00316341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829585122735F67B00316341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829585192735F67B00316341;
+			remoteInfo = StudioGhibliApp;
+		};
+		8295853E2735F67C00316341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829585122735F67B00316341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829585192735F67B00316341;
+			remoteInfo = StudioGhibliApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8295851A2735F67B00316341 /* StudioGhibliApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudioGhibliApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295851D2735F67B00316341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8295851F2735F67B00316341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		829585212735F67B00316341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		829585242735F67B00316341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		829585272735F67B00316341 /* StudioGhibliApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudioGhibliApp.xcdatamodel; sourceTree = "<group>"; };
+		829585292735F67C00316341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8295852C2735F67C00316341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8295852E2735F67C00316341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829585332735F67C00316341 /* StudioGhibliAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioGhibliAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		829585372735F67C00316341 /* StudioGhibliAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioGhibliAppTests.swift; sourceTree = "<group>"; };
+		8295853D2735F67C00316341 /* StudioGhibliAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioGhibliAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		829585412735F67C00316341 /* StudioGhibliAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioGhibliAppUITests.swift; sourceTree = "<group>"; };
+		829585432735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioGhibliAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829585172735F67B00316341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829585302735F67C00316341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295853A2735F67C00316341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829585112735F67B00316341 = {
+			isa = PBXGroup;
+			children = (
+				8295851C2735F67B00316341 /* StudioGhibliApp */,
+				829585362735F67C00316341 /* StudioGhibliAppTests */,
+				829585402735F67C00316341 /* StudioGhibliAppUITests */,
+				8295851B2735F67B00316341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8295851B2735F67B00316341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8295851A2735F67B00316341 /* StudioGhibliApp.app */,
+				829585332735F67C00316341 /* StudioGhibliAppTests.xctest */,
+				8295853D2735F67C00316341 /* StudioGhibliAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8295851C2735F67B00316341 /* StudioGhibliApp */ = {
+			isa = PBXGroup;
+			children = (
+				8295851D2735F67B00316341 /* AppDelegate.swift */,
+				8295851F2735F67B00316341 /* SceneDelegate.swift */,
+				829585212735F67B00316341 /* ViewController.swift */,
+				829585232735F67B00316341 /* Main.storyboard */,
+				829585292735F67C00316341 /* Assets.xcassets */,
+				8295852B2735F67C00316341 /* LaunchScreen.storyboard */,
+				8295852E2735F67C00316341 /* Info.plist */,
+				829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */,
+			);
+			path = StudioGhibliApp;
+			sourceTree = "<group>";
+		};
+		829585362735F67C00316341 /* StudioGhibliAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				829585372735F67C00316341 /* StudioGhibliAppTests.swift */,
+			);
+			path = StudioGhibliAppTests;
+			sourceTree = "<group>";
+		};
+		829585402735F67C00316341 /* StudioGhibliAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				829585412735F67C00316341 /* StudioGhibliAppUITests.swift */,
+				829585432735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift */,
+			);
+			path = StudioGhibliAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829585192735F67B00316341 /* StudioGhibliApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829585472735F67C00316341 /* Build configuration list for PBXNativeTarget "StudioGhibliApp" */;
+			buildPhases = (
+				829585162735F67B00316341 /* Sources */,
+				829585172735F67B00316341 /* Frameworks */,
+				829585182735F67B00316341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudioGhibliApp;
+			productName = StudioGhibliApp;
+			productReference = 8295851A2735F67B00316341 /* StudioGhibliApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		829585322735F67C00316341 /* StudioGhibliAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295854A2735F67C00316341 /* Build configuration list for PBXNativeTarget "StudioGhibliAppTests" */;
+			buildPhases = (
+				8295852F2735F67C00316341 /* Sources */,
+				829585302735F67C00316341 /* Frameworks */,
+				829585312735F67C00316341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				829585352735F67C00316341 /* PBXTargetDependency */,
+			);
+			name = StudioGhibliAppTests;
+			productName = StudioGhibliAppTests;
+			productReference = 829585332735F67C00316341 /* StudioGhibliAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8295853C2735F67C00316341 /* StudioGhibliAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295854D2735F67C00316341 /* Build configuration list for PBXNativeTarget "StudioGhibliAppUITests" */;
+			buildPhases = (
+				829585392735F67C00316341 /* Sources */,
+				8295853A2735F67C00316341 /* Frameworks */,
+				8295853B2735F67C00316341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8295853F2735F67C00316341 /* PBXTargetDependency */,
+			);
+			name = StudioGhibliAppUITests;
+			productName = StudioGhibliAppUITests;
+			productReference = 8295853D2735F67C00316341 /* StudioGhibliAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829585122735F67B00316341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					829585192735F67B00316341 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					829585322735F67C00316341 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 829585192735F67B00316341;
+					};
+					8295853C2735F67C00316341 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 829585192735F67B00316341;
+					};
+				};
+			};
+			buildConfigurationList = 829585152735F67B00316341 /* Build configuration list for PBXProject "StudioGhibliApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 829585112735F67B00316341;
+			productRefGroup = 8295851B2735F67B00316341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829585192735F67B00316341 /* StudioGhibliApp */,
+				829585322735F67C00316341 /* StudioGhibliAppTests */,
+				8295853C2735F67C00316341 /* StudioGhibliAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829585182735F67B00316341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295852D2735F67C00316341 /* LaunchScreen.storyboard in Resources */,
+				8295852A2735F67C00316341 /* Assets.xcassets in Resources */,
+				829585252735F67B00316341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829585312735F67C00316341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295853B2735F67C00316341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829585162735F67B00316341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829585282735F67B00316341 /* StudioGhibliApp.xcdatamodeld in Sources */,
+				829585222735F67B00316341 /* ViewController.swift in Sources */,
+				8295851E2735F67B00316341 /* AppDelegate.swift in Sources */,
+				829585202735F67B00316341 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295852F2735F67C00316341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829585382735F67C00316341 /* StudioGhibliAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829585392735F67C00316341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829585422735F67C00316341 /* StudioGhibliAppUITests.swift in Sources */,
+				829585442735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		829585352735F67C00316341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829585192735F67B00316341 /* StudioGhibliApp */;
+			targetProxy = 829585342735F67C00316341 /* PBXContainerItemProxy */;
+		};
+		8295853F2735F67C00316341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829585192735F67B00316341 /* StudioGhibliApp */;
+			targetProxy = 8295853E2735F67C00316341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		829585232735F67B00316341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829585242735F67B00316341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8295852B2735F67C00316341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295852C2735F67C00316341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829585452735F67C00316341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		829585462735F67C00316341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		829585482735F67C00316341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudioGhibliApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioghibliapp.StudioGhibliApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		829585492735F67C00316341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudioGhibliApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioghibliapp.StudioGhibliApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8295854B2735F67C00316341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioghibliapp.StudioGhibliAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudioGhibliApp.app/StudioGhibliApp";
+			};
+			name = Debug;
+		};
+		8295854C2735F67C00316341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioghibliapp.StudioGhibliAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudioGhibliApp.app/StudioGhibliApp";
+			};
+			name = Release;
+		};
+		8295854E2735F67C00316341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioghibliapp.StudioGhibliAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudioGhibliApp;
+			};
+			name = Debug;
+		};
+		8295854F2735F67C00316341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioghibliapp.StudioGhibliAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudioGhibliApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829585152735F67B00316341 /* Build configuration list for PBXProject "StudioGhibliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829585452735F67C00316341 /* Debug */,
+				829585462735F67C00316341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829585472735F67C00316341 /* Build configuration list for PBXNativeTarget "StudioGhibliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829585482735F67C00316341 /* Debug */,
+				829585492735F67C00316341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295854A2735F67C00316341 /* Build configuration list for PBXNativeTarget "StudioGhibliAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295854B2735F67C00316341 /* Debug */,
+				8295854C2735F67C00316341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295854D2735F67C00316341 /* Build configuration list for PBXNativeTarget "StudioGhibliAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295854E2735F67C00316341 /* Debug */,
+				8295854F2735F67C00316341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				829585272735F67B00316341 /* StudioGhibliApp.xcdatamodel */,
+			);
+			currentVersion = 829585272735F67B00316341 /* StudioGhibliApp.xcdatamodel */;
+			path = StudioGhibliApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 829585122735F67B00316341 /* Project object */;
+}
