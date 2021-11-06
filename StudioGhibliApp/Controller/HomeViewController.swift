@@ -20,6 +20,11 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setupFilms()
+        setupPeople()
+        setupSpecies()
+        setupLocations()
+        setupVehicles()
     }
 
     @IBAction func getFilms(_ sender: UIButton) {
@@ -28,21 +33,48 @@ class HomeViewController: UIViewController {
     }
    
     @IBAction func getPeople(_ sender: UIButton) {
+        let pViewController = FilmsViewController()
+        navigationController?.pushViewController(pViewController, animated: true)
     }
     
     @IBAction func getSpecies(_ sender: UIButton) {
+        let sViewController = FilmsViewController()
+        navigationController?.pushViewController(sViewController, animated: true)
     }
     
     @IBAction func getLocations(_ sender: UIButton) {
+        let lViewController = FilmsViewController()
+        navigationController?.pushViewController(lViewController, animated: true)
     }
     
     @IBAction func getVehicles(_ sender: UIButton) {
+        let vViewController = FilmsViewController()
+        navigationController?.pushViewController(vViewController, animated: true)
     }
     
-    func setupfilms (){
-           buttonFilmes.layer.cornerRadius = 12
+    func setupFilms (){
+           buttonFilmes?.layer.cornerRadius = 12
            navigationController?.navigationBar.tintColor = .white
        }
     
+    func setupPeople (){
+           buttonPeople?.layer.cornerRadius = 12
+           navigationController?.navigationBar.tintColor = .white
+       }
+    
+    func setupSpecies (){
+           buttonSpecies?.layer.cornerRadius = 12
+           navigationController?.navigationBar.tintColor = .white
+       }
+    
+    func setupLocations (){
+           buttonLocations?.layer.cornerRadius = 12
+           navigationController?.navigationBar.tintColor = .white
+       }
+    
+    func setupVehicles (){
+           buttonVehicles?.layer.cornerRadius = 12
+           navigationController?.navigationBar.tintColor = .white
+       }
 }
 
