@@ -33,6 +33,16 @@
 		829585722736028B00316341 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585712736028B00316341 /* LocationsViewController.swift */; };
 		82958574273602AA00316341 /* SpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82958573273602AA00316341 /* SpeciesViewController.swift */; };
 		82958576273602C200316341 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82958575273602C200316341 /* VehiclesViewController.swift */; };
+		8295857A2736076100316341 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 829585792736076100316341 /* Kingfisher */; };
+		8295857D273607C900316341 /* CCFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295857B273607C900316341 /* CCFilms.swift */; };
+		8295857E273607C900316341 /* CCFilms.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8295857C273607C900316341 /* CCFilms.xib */; };
+		82958581273609A500316341 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 82958580273609A500316341 /* SnapKit */; };
+		8295858327360B1900316341 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295858227360B1900316341 /* DetailViewController.swift */; };
+		8295858527360B6400316341 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295858427360B6400316341 /* FavoritesViewController.swift */; };
+		8295858927360DDE00316341 /* CCFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295858727360DDE00316341 /* CCFavorites.swift */; };
+		8295858A27360DDE00316341 /* CCFavorites.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8295858827360DDE00316341 /* CCFavorites.xib */; };
+		8295858C27360FF900316341 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295858B27360FF900316341 /* DatabaseController.swift */; };
+		8295858E273616F800316341 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295858D273616F800316341 /* ImageViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +93,14 @@
 		829585712736028B00316341 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		82958573273602AA00316341 /* SpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewController.swift; sourceTree = "<group>"; };
 		82958575273602C200316341 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
+		8295857B273607C900316341 /* CCFilms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCFilms.swift; sourceTree = "<group>"; };
+		8295857C273607C900316341 /* CCFilms.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCFilms.xib; sourceTree = "<group>"; };
+		8295858227360B1900316341 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8295858427360B6400316341 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		8295858727360DDE00316341 /* CCFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCFavorites.swift; sourceTree = "<group>"; };
+		8295858827360DDE00316341 /* CCFavorites.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCFavorites.xib; sourceTree = "<group>"; };
+		8295858B27360FF900316341 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		8295858D273616F800316341 /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8295857A2736076100316341 /* Kingfisher in Frameworks */,
+				82958581273609A500316341 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,10 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				8295851D2735F67B00316341 /* AppDelegate.swift */,
-				829585562735F84500316341 /* Model */,
 				829585292735F67C00316341 /* Assets.xcassets */,
 				8295852E2735F67C00316341 /* Info.plist */,
 				829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */,
+				829585562735F84500316341 /* Model */,
 				829585552735F6CB00316341 /* View */,
 				829585542735F6B100316341 /* Controller */,
 			);
@@ -165,11 +185,13 @@
 			isa = PBXGroup;
 			children = (
 				829585502735F6AD00316341 /* HomeViewController.swift */,
-				829585212735F67B00316341 /* FilmsViewController.swift */,
+				8295858627360D3A00316341 /* Favorites */,
+				82958577273606A200316341 /* Films */,
 				8295856F2736025100316341 /* PeopleViewController.swift */,
 				829585712736028B00316341 /* LocationsViewController.swift */,
 				82958573273602AA00316341 /* SpeciesViewController.swift */,
 				82958575273602C200316341 /* VehiclesViewController.swift */,
+				8295858B27360FF900316341 /* DatabaseController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +201,9 @@
 			children = (
 				8295852B2735F67C00316341 /* LaunchScreen.storyboard */,
 				829585512735F6AD00316341 /* HomeViewController.xib */,
+				8295857C273607C900316341 /* CCFilms.xib */,
+				8295858827360DDE00316341 /* CCFavorites.xib */,
+				8295858D273616F800316341 /* ImageViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +227,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		82958577273606A200316341 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				8295857B273607C900316341 /* CCFilms.swift */,
+				829585212735F67B00316341 /* FilmsViewController.swift */,
+				8295858227360B1900316341 /* DetailViewController.swift */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		8295858627360D3A00316341 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				8295858427360B6400316341 /* FavoritesViewController.swift */,
+				8295858727360DDE00316341 /* CCFavorites.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,6 +262,10 @@
 			dependencies = (
 			);
 			name = StudioGhibliApp;
+			packageProductDependencies = (
+				829585792736076100316341 /* Kingfisher */,
+				82958580273609A500316341 /* SnapKit */,
+			);
 			productName = StudioGhibliApp;
 			productReference = 8295851A2735F67B00316341 /* StudioGhibliApp.app */;
 			productType = "com.apple.product-type.application";
@@ -290,6 +338,10 @@
 				Base,
 			);
 			mainGroup = 829585112735F67B00316341;
+			packageReferences = (
+				829585782736076100316341 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				8295857F273609A500316341 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 8295851B2735F67B00316341 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,7 +359,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8295852D2735F67C00316341 /* LaunchScreen.storyboard in Resources */,
+				8295857E273607C900316341 /* CCFilms.xib in Resources */,
 				8295852A2735F67C00316341 /* Assets.xcassets in Resources */,
+				8295858A27360DDE00316341 /* CCFavorites.xib in Resources */,
 				829585532735F6AD00316341 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +389,7 @@
 			files = (
 				8295855A2735F85D00316341 /* Locations.swift in Sources */,
 				8295856A2735F89400316341 /* UIColor.swift in Sources */,
+				8295858E273616F800316341 /* ImageViewCell.swift in Sources */,
 				829585602735F87000316341 /* Films.swift in Sources */,
 				8295855C2735F86300316341 /* Species.swift in Sources */,
 				829585642735F88400316341 /* Error.swift in Sources */,
@@ -344,15 +399,20 @@
 				829585282735F67B00316341 /* StudioGhibliApp.xcdatamodeld in Sources */,
 				82958576273602C200316341 /* VehiclesViewController.swift in Sources */,
 				829585222735F67B00316341 /* FilmsViewController.swift in Sources */,
+				8295858327360B1900316341 /* DetailViewController.swift in Sources */,
 				8295855E2735F86B00316341 /* Vehicles.swift in Sources */,
+				8295858927360DDE00316341 /* CCFavorites.swift in Sources */,
 				829585702736025100316341 /* PeopleViewController.swift in Sources */,
 				829585722736028B00316341 /* LocationsViewController.swift in Sources */,
+				8295858527360B6400316341 /* FavoritesViewController.swift in Sources */,
 				8295856E2735FD5000316341 /* sGAPI.swift in Sources */,
 				829585622735F87700316341 /* EndPoints.swift in Sources */,
 				8295851E2735F67B00316341 /* AppDelegate.swift in Sources */,
+				8295858C27360FF900316341 /* DatabaseController.swift in Sources */,
 				829585522735F6AD00316341 /* HomeViewController.swift in Sources */,
 				829585662735F88A00316341 /* API.swift in Sources */,
 				829585582735F85700316341 /* People.swift in Sources */,
+				8295857D273607C900316341 /* CCFilms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +766,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		829585782736076100316341 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		8295857F273609A500316341 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		829585792736076100316341 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 829585782736076100316341 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		82958580273609A500316341 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8295857F273609A500316341 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */ = {

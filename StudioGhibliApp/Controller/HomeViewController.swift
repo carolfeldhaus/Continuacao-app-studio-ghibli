@@ -53,8 +53,8 @@ class HomeViewController: UIViewController {
     }
     
     func setupFilms (){
-           buttonFilmes?.layer.cornerRadius = 12
-           navigationController?.navigationBar.tintColor = .white
+        let fController = FavoritesViewController()
+                navigationController?.pushViewController(fController, animated: true)
        }
     
     func setupPeople (){
