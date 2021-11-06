@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8295851E2735F67B00316341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295851D2735F67B00316341 /* AppDelegate.swift */; };
-		829585202735F67B00316341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295851F2735F67B00316341 /* SceneDelegate.swift */; };
-		829585222735F67B00316341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585212735F67B00316341 /* ViewController.swift */; };
-		829585252735F67B00316341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829585232735F67B00316341 /* Main.storyboard */; };
+		829585222735F67B00316341 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585212735F67B00316341 /* FilmsViewController.swift */; };
 		829585282735F67B00316341 /* StudioGhibliApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */; };
 		8295852A2735F67C00316341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829585292735F67C00316341 /* Assets.xcassets */; };
 		8295852D2735F67C00316341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295852B2735F67C00316341 /* LaunchScreen.storyboard */; };
 		829585382735F67C00316341 /* StudioGhibliAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585372735F67C00316341 /* StudioGhibliAppTests.swift */; };
 		829585422735F67C00316341 /* StudioGhibliAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585412735F67C00316341 /* StudioGhibliAppUITests.swift */; };
 		829585442735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585432735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift */; };
+		829585522735F6AD00316341 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585502735F6AD00316341 /* HomeViewController.swift */; };
+		829585532735F6AD00316341 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829585512735F6AD00316341 /* HomeViewController.xib */; };
+		829585582735F85700316341 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585572735F85700316341 /* People.swift */; };
+		8295855A2735F85D00316341 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585592735F85D00316341 /* Locations.swift */; };
+		8295855C2735F86300316341 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295855B2735F86300316341 /* Species.swift */; };
+		8295855E2735F86B00316341 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295855D2735F86B00316341 /* Vehicles.swift */; };
+		829585602735F87000316341 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295855F2735F87000316341 /* Films.swift */; };
+		829585622735F87700316341 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585612735F87700316341 /* EndPoints.swift */; };
+		829585642735F88400316341 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585632735F88300316341 /* Error.swift */; };
+		829585662735F88A00316341 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585652735F88A00316341 /* API.swift */; };
+		829585682735F89000316341 /* HTTPMetodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585672735F89000316341 /* HTTPMetodo.swift */; };
+		8295856A2735F89400316341 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585692735F89400316341 /* UIColor.swift */; };
+		8295856C2735F89900316341 /* ImageFilme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295856B2735F89900316341 /* ImageFilme.swift */; };
+		8295856E2735FD5000316341 /* sGAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295856D2735FD5000316341 /* sGAPI.swift */; };
+		829585702736025100316341 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295856F2736025100316341 /* PeopleViewController.swift */; };
+		829585722736028B00316341 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829585712736028B00316341 /* LocationsViewController.swift */; };
+		82958574273602AA00316341 /* SpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82958573273602AA00316341 /* SpeciesViewController.swift */; };
+		82958576273602C200316341 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82958575273602C200316341 /* VehiclesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +55,7 @@
 /* Begin PBXFileReference section */
 		8295851A2735F67B00316341 /* StudioGhibliApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudioGhibliApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8295851D2735F67B00316341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8295851F2735F67B00316341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		829585212735F67B00316341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		829585242735F67B00316341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		829585212735F67B00316341 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		829585272735F67B00316341 /* StudioGhibliApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudioGhibliApp.xcdatamodel; sourceTree = "<group>"; };
 		829585292735F67C00316341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8295852C2735F67C00316341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,24 @@
 		8295853D2735F67C00316341 /* StudioGhibliAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioGhibliAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		829585412735F67C00316341 /* StudioGhibliAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioGhibliAppUITests.swift; sourceTree = "<group>"; };
 		829585432735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioGhibliAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		829585502735F6AD00316341 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		829585512735F6AD00316341 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		829585572735F85700316341 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		829585592735F85D00316341 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		8295855B2735F86300316341 /* Species.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		8295855D2735F86B00316341 /* Vehicles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		8295855F2735F87000316341 /* Films.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		829585612735F87700316341 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		829585632735F88300316341 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		829585652735F88A00316341 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		829585672735F89000316341 /* HTTPMetodo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMetodo.swift; sourceTree = "<group>"; };
+		829585692735F89400316341 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8295856B2735F89900316341 /* ImageFilme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilme.swift; sourceTree = "<group>"; };
+		8295856D2735FD5000316341 /* sGAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sGAPI.swift; sourceTree = "<group>"; };
+		8295856F2736025100316341 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		829585712736028B00316341 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		82958573273602AA00316341 /* SpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewController.swift; sourceTree = "<group>"; };
+		82958575273602C200316341 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				8295851D2735F67B00316341 /* AppDelegate.swift */,
-				8295851F2735F67B00316341 /* SceneDelegate.swift */,
-				829585212735F67B00316341 /* ViewController.swift */,
-				829585232735F67B00316341 /* Main.storyboard */,
+				829585562735F84500316341 /* Model */,
 				829585292735F67C00316341 /* Assets.xcassets */,
-				8295852B2735F67C00316341 /* LaunchScreen.storyboard */,
 				8295852E2735F67C00316341 /* Info.plist */,
 				829585262735F67B00316341 /* StudioGhibliApp.xcdatamodeld */,
+				829585552735F6CB00316341 /* View */,
+				829585542735F6B100316341 /* Controller */,
 			);
 			path = StudioGhibliApp;
 			sourceTree = "<group>";
@@ -128,6 +159,47 @@
 				829585432735F67C00316341 /* StudioGhibliAppUITestsLaunchTests.swift */,
 			);
 			path = StudioGhibliAppUITests;
+			sourceTree = "<group>";
+		};
+		829585542735F6B100316341 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				829585502735F6AD00316341 /* HomeViewController.swift */,
+				829585212735F67B00316341 /* FilmsViewController.swift */,
+				8295856F2736025100316341 /* PeopleViewController.swift */,
+				829585712736028B00316341 /* LocationsViewController.swift */,
+				82958573273602AA00316341 /* SpeciesViewController.swift */,
+				82958575273602C200316341 /* VehiclesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		829585552735F6CB00316341 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8295852B2735F67C00316341 /* LaunchScreen.storyboard */,
+				829585512735F6AD00316341 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		829585562735F84500316341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				829585652735F88A00316341 /* API.swift */,
+				8295856D2735FD5000316341 /* sGAPI.swift */,
+				8295855F2735F87000316341 /* Films.swift */,
+				829585572735F85700316341 /* People.swift */,
+				829585592735F85D00316341 /* Locations.swift */,
+				8295855B2735F86300316341 /* Species.swift */,
+				8295855D2735F86B00316341 /* Vehicles.swift */,
+				829585612735F87700316341 /* EndPoints.swift */,
+				829585632735F88300316341 /* Error.swift */,
+				829585672735F89000316341 /* HTTPMetodo.swift */,
+				829585692735F89400316341 /* UIColor.swift */,
+				8295856B2735F89900316341 /* ImageFilme.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +308,7 @@
 			files = (
 				8295852D2735F67C00316341 /* LaunchScreen.storyboard in Resources */,
 				8295852A2735F67C00316341 /* Assets.xcassets in Resources */,
-				829585252735F67B00316341 /* Main.storyboard in Resources */,
+				829585532735F6AD00316341 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +333,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8295855A2735F85D00316341 /* Locations.swift in Sources */,
+				8295856A2735F89400316341 /* UIColor.swift in Sources */,
+				829585602735F87000316341 /* Films.swift in Sources */,
+				8295855C2735F86300316341 /* Species.swift in Sources */,
+				829585642735F88400316341 /* Error.swift in Sources */,
+				82958574273602AA00316341 /* SpeciesViewController.swift in Sources */,
+				8295856C2735F89900316341 /* ImageFilme.swift in Sources */,
+				829585682735F89000316341 /* HTTPMetodo.swift in Sources */,
 				829585282735F67B00316341 /* StudioGhibliApp.xcdatamodeld in Sources */,
-				829585222735F67B00316341 /* ViewController.swift in Sources */,
+				82958576273602C200316341 /* VehiclesViewController.swift in Sources */,
+				829585222735F67B00316341 /* FilmsViewController.swift in Sources */,
+				8295855E2735F86B00316341 /* Vehicles.swift in Sources */,
+				829585702736025100316341 /* PeopleViewController.swift in Sources */,
+				829585722736028B00316341 /* LocationsViewController.swift in Sources */,
+				8295856E2735FD5000316341 /* sGAPI.swift in Sources */,
+				829585622735F87700316341 /* EndPoints.swift in Sources */,
 				8295851E2735F67B00316341 /* AppDelegate.swift in Sources */,
-				829585202735F67B00316341 /* SceneDelegate.swift in Sources */,
+				829585522735F6AD00316341 /* HomeViewController.swift in Sources */,
+				829585662735F88A00316341 /* API.swift in Sources */,
+				829585582735F85700316341 /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		829585232735F67B00316341 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				829585242735F67B00316341 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8295852B2735F67C00316341 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,7 +528,6 @@
 				INFOPLIST_FILE = StudioGhibliApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +555,6 @@
 				INFOPLIST_FILE = StudioGhibliApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
